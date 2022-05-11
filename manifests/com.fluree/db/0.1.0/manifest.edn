@@ -1,0 +1,17 @@
+{:pod/name com.fluree/db
+ :pod/description "Fluree db library"
+ :pod/version "0.1.0"
+ :pod/license "EPL-2.0"
+ :pod/artifacts
+ [{:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/fluree/pod-fluree-db/releases/download/v0.1.0/pod-fluree-db-linux-amd64.zip"
+   :artifact/executable "pod-fluree-db"}
+  {:os/name "Linux.*"
+   :os/arch "aarch64"
+   :artifact/url "https://github.com/fluree/pod-fluree-db/releases/download/v0.1.0/pod-fluree-db-linux-arm64.zip"
+   :artifact/executable "pod-fluree-db"}
+  {:os/name "Mac.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/fluree/pod-fluree-db/releases/download/v0.1.0/pod-fluree-db-macos-amd64.zip"
+   :artifact/executable "pod-fluree-db"}]}
