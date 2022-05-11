@@ -1,7 +1,7 @@
 {:pod/name com.fluree/crypto
  :pod/description "Fluree crypto library"
  :pod/version "0.1.1"
- :pod/license "MIT"
+ :pod/license "EPL-2.0"
  :pod/artifacts
  [{:os/name "Linux.*"
    :os/arch "amd64"
